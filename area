@@ -1,14 +1,13 @@
-# Simple Python code to calculate the area of a rectangle
 
-# Function to calculate the area of a rectangle
+
+
 def calculate_area(length, width):
     area = length * width
     return area
 
-# Taking input from the user
+
 length = float(input("Enter the length of the rectangle: "))
 width = float(input("Enter the width of the rectangle: "))
 
-# Calling the function and printing the result
-area = calculate_area(length, width)
+area = calculate_area(length, width
 print("The area of the rectangle is:", area)
